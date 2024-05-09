@@ -1,4 +1,4 @@
-請把 gallery 以及 query 的圖片放此目錄:
+Put the car images of gallery as well as query
 ```bash
 .
 ├── VehicleData (.)/
