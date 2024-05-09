@@ -13,7 +13,7 @@ Python version : 3.10.12
     - (Web UI) 之框架
 - torch torchvision (cuda support)
 
-下載reid model :  https://drive.google.com/file/d/1U-_EoLLcPD-MFzXfJdEXSUAk57xRzDd3/view?usp=drive_link
+下載reid model :  https://drive.google.com/file/d/1NHu_7e_616b9ySXU5xJgskiRWAHcMdRl/view?usp=drive_link
 
 放到 ```./checkpoints/stage2/transreid_256/v2/```
 
