@@ -1,0 +1,8 @@
+.vscode
+VehicleData/*/*.jpg
+checkpoints/*/*/*.pth
+checkpoints/*/*/*/*.pth
+*/__pycache__/
+*/*/__pycache__/
+precalculated/*/*.json
+precalculated/*/*.pt
