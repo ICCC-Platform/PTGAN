@@ -15,7 +15,8 @@ Python version : 3.10.12
 
 Gallery 所有車輛的 features 都預先用 ```preprocess.py``` 算好了，存放在 : ```./precaculate/gallery```
 
-```
+```bash 
+cd ./PTGAN (or the folder of this project)
 python ui.py
 ```
 會在 terminal 產生一條:
