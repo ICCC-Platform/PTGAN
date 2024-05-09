@@ -7,3 +7,4 @@ checkpoints/*/*/*/*.pth
 precalculated/*/*.json
 precalculated/*/*.pt
 *.zip
+*/*.mp4
