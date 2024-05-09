@@ -8,6 +8,9 @@ Python version : 3.10.12
     - (Web UI) 之框架
 - torch torchvision (cuda support)
 
+流程圖:
+<img src="./docs/reid_demo.jpg">
+
 ## Demo 
 
 Gallery 所有車輛的 features 都預先用 ```preprocess.py``` 算好了，存放在 : ```./precaculate/gallery```
