@@ -1,3 +1,8 @@
+```bash
+git clone -b webui https://github.com/ICCC-Platform/PTGAN.git
+cd PTGAN
+```
+
 # 執行說明
 
 ## 環境
@@ -8,6 +13,11 @@ Python version : 3.10.12
     - (Web UI) 之框架
 - torch torchvision (cuda support)
 
+下載reid model :  https://drive.google.com/file/d/1U-_EoLLcPD-MFzXfJdEXSUAk57xRzDd3/view?usp=drive_link
+
+放到 ```./checkpoints/stage2/transreid_256/v2/```
+
+
 流程圖:
 <img src="./docs/reid_demo.jpg">
 
@@ -16,7 +26,6 @@ Python version : 3.10.12
 Gallery 所有車輛的 features 都預先用 ```preprocess.py``` 算好了，存放在 : ```./precaculate/gallery```
 
 ```bash 
-cd ./PTGAN (or the folder of this project)
 python ui.py
 ```
 會在 terminal 產生一條:
