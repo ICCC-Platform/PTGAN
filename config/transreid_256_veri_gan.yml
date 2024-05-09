@@ -6,7 +6,7 @@ MODEL:
   IF_WITH_CENTER: 'no'
   NAME: 'transformer'
   NO_MARGIN: True
-  DEVICE_ID: 1
+  DEVICE_ID: 0
   Transformer_TYPE: 'vit_base_patch16_224_TransReID'
   STRIDE_SIZE: [14, 14]
 
