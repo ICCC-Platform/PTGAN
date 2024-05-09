@@ -6,3 +6,4 @@ checkpoints/*/*/*/*.pth
 */*/__pycache__/
 precalculated/*/*.json
 precalculated/*/*.pt
+*.zip
