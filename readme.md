@@ -6,19 +6,19 @@ cd PTGAN
 # 執行說明
 
 ## 環境
-Python version : 3.10.12
+Python version : __3.10.12__
+1. ```pip install -r demo_requirements.txt```
+2. 根據 torch 官網裝好 torch torchvision ( __cuda support__ ) 
+    - https://pytorch.org/get-started/locally/
+    - e.g. ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121```
 
-### 重要之 Third Party Packages
-- gradio
-    - (Web UI) 之框架
-- torch torchvision (cuda support)
 
 下載reid model :  https://drive.google.com/file/d/1NHu_7e_616b9ySXU5xJgskiRWAHcMdRl/view?usp=drive_link
 
 放到 ```./checkpoints/stage2/transreid_256/v2/```
 
 
-流程圖:
+## ReID  流程圖:
 <img src="./docs/reid_demo.jpg">
 
 ## Demo 
