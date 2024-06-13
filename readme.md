@@ -15,7 +15,7 @@ Python version : __3.10.12__
 
 下載reid model :  https://drive.google.com/file/d/1NHu_7e_616b9ySXU5xJgskiRWAHcMdRl/view?usp=drive_link
 
-放到 ```./checkpoints/stage2/transreid_256/v2/```
+放到 ```./checkpoints/stage2/transreid_256/v1/```
 
 
 ## ReID  流程圖:
