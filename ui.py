@@ -62,7 +62,11 @@ class WebUI():
             self, query_show_size:tuple[int]=(200, 200), 
             gallery_img_root:os.PathLike = Path("VehicleData")/"gallery"
         ) -> None:
-        self.USE_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+         match sys.platform:
+            case  "win32":
+                self.USE_FONT = "C:\\Windows\\Fonts\\times.ttf" 
+            case "linux":
+                self.USE_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
         self.g_root = gallery_img_root
         self.q_img = None
         self.query_show_size = query_show_size
