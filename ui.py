@@ -17,7 +17,7 @@ class ReID_Pipline():
     
     def __init__(self, cfg, gallery_precalculate_path:os.PathLike) -> None:
         
-        self.dev = torch.device(f"cuda:{cfg.MODEL.DEVICE_ID}")
+        torch.device(f"cuda:{cfg.MODEL.DEVICE_ID}") if torch.cuda.is_available() else torch.device("cpu")
 
         self.model = self._build_model(cfg=cfg).to(device=self.dev)
         
