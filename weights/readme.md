@@ -1,0 +1,1 @@
+To run [generate_test_image.py](../generate_test_image.py), please download **fixed_GAN_cycle_stage_2/40_*.pth** from [here](https://drive.google.com/file/d/1H7Dyi-Hu4aRF7f_JOgl2b6bgERKuYK-m/view?usp=sharing), unzip the folder and save it to ./fixed_GAN_cycle_stage_2
