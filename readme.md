@@ -12,3 +12,6 @@ Generate the demo images by PTGAN:
 ## Inference
 ```python generate_test_image.py``` 
 - The results will be saved at ./experiments/noise_cycle
+
+**Please note that the keypoint map (each .txt) is from DATASET itself:
+https://github.com/Zhongdao/VehicleReIDKeyPointData.git
